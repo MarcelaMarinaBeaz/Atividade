@@ -88,3 +88,91 @@ if (A == 0 || B == 0)
 {
 
 }
+//Atividade 5
+
+
+
+
+
+
+//Atividade 6
+int numero = 0;
+int numero1 = 0;
+Console.WriteLine($"Escolha Uma das açoes abaixo:" +
+                  $"\n1 - Adiçao" +
+                  $"\n2 - Subtraçao" +
+                  $"\n3 - Multiplicaçao" +
+                  $"\n4 - Divisão" +
+                  $"\n------------------------------");
+    if(numero == 1)
+    {
+    int resultado = numero + numero1;
+    }
+    else if(numero == 2)
+    {
+    int resultado = numero - numero1;
+}
+    else if(numero == 3)
+    {
+    int resultado = numero * numero1;
+}
+    else if(numero == 4)
+    {
+    int resultado = numero / numero1;
+}
+    else
+    {
+    Console.WriteLine("Digite uma acao valida!!!!!!!!!");
+    }
+
+//Atividade 7
+
+
+
+Console.WriteLine($"\n-----------------------------------------------------------------" +
+                  $"\nEscreva Qual acao deseja realizar" +
+                  $"\n1 - Verificar se um dos numeros lidos é ou não multiplo do outro" +
+                  $"\n2 - Verificar se os numeros lidos sao pares" +
+                  $"\n3 - Verificar se a média dos dois numeros é maior ou igual a 7" +
+                  $"\n4 - Sair" +
+                  $"\n----------------------------------------------------------------");
+
+int num = 0;
+num= int.Parse(Console.ReadLine());
+
+
+if (num == 1)
+{
+    int num1 = 0;
+    int num2 = 0;
+    int Resultado = num1 % num2;
+}
+else if (num == 2)
+{
+    int numeroo = 0;
+    int numerooo= 0;
+    if(numeroo % 2 == 0 && numerooo % 2 == 0)
+    {
+        Console.WriteLine("Os numeros informados serao Pares");
+    }
+    else
+    {
+        Console.WriteLine("Os numeros informados serao impares");
+    }
+    return;
+
+}
+else if (num == 3)
+{
+    int num3=0;
+    int num4= 0;
+    if(num3 >= 7 && num4 >= 7)
+    {
+        Console.WriteLine($"{num3} é maior que 7 e {num4} tbm");
+    }
+    
+}
+else if (num == 4)
+{
+   
+}
